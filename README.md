@@ -1,5 +1,5 @@
-Simple asyncronous interface to search on github. EventMachine + Sinatra + WebSocket + Redis. 
-Also, it uses handmade background jobs with minimal latency on start (instead of big and slow Sidekiq). 
+Simple asyncronous interface to search on GitHub. Built over EventMachine, Sinatra, WebSocket and Redis. 
+It uses handmade background jobs with minimal latency on start (instead of big and slow Sidekiq). 
 
 # How it works
 
