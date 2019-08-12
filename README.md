@@ -5,6 +5,17 @@ Also, it uses handmade background jobs with minimal latency on start (instead of
 
 ![Github Lazy Searcher](https://user-images.githubusercontent.com/418868/62869015-a1574e00-bd1f-11e9-8a71-6d809031310a.png)
 
+# How to run in Docker
+
+```bash
+git clone https://github.com/a0s/github-lazy-search.git
+cd github-lazy-search
+docker build --tag github-lazy-search .
+export GITHUB_TOKEN=% YOUR GITHUB TOKEN HERE % 
+docker docker run --rm -it --env GITHUB_TOKEN=${GITHUB_TOKEN} -p 9000:9000 github-lazy-search
+# open http://localhost:9000 in browser
+```
+
 # Know issues
 ## libffi.la
 
