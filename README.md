@@ -3,7 +3,7 @@ Also, it uses handmade background jobs with minimal latency on start (instead of
 
 # How it works
 
-
+![Github Lazy Searcher](https://user-images.githubusercontent.com/418868/62869015-a1574e00-bd1f-11e9-8a71-6d809031310a.png)
 
 # Know issues
 ## libffi.la
