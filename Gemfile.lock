@@ -98,6 +98,8 @@ DEPENDENCIES
   activesupport
   awesome_print
   em-hiredis
+  eventmachine
+  execjs
   octokit
   pry
   rake

@@ -36,6 +36,7 @@ class WebServer < Sinatra::Base
   set :sprockets, Sprockets::Environment.new(App.root)
   set :assets_prefix, '/assets'
   set :digest_assets, false
+
   sprockets.append_path "assets/stylesheets"
   sprockets.append_path "assets/javascripts"
   sprockets.js_compressor = Uglifier.new(harmony: true) #:uglify
